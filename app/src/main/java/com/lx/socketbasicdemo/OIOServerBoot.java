@@ -5,7 +5,10 @@ import java.io.InputStream;
 import java.net.InetSocketAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
-
+/**
+ * Java传统 Socket特点
+ * - inputStream.read() 按字节读取，无Buffer
+ */
 public class OIOServerBoot {
 
     public static final String HOST = "127.0.0.1";
